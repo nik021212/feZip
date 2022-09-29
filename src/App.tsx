@@ -135,7 +135,8 @@ const App = (): JSX.Element => {
 
   return (
     <div>
-      <h1>Metering Distributore Test Upload</h1>
+      <h1>Metering Distributore Test Upload(Only ZIP File)</h1>
+	  <a href="https://witty-sky-06d32b310.1.azurestaticapps.net/">to upload xml click here</a>
       {storageConfigured && !uploading && DisplayForm()}
       {storageConfigured && uploading && <div>Uploading</div>}
         {!!progressBar &&
